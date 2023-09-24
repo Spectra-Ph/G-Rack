@@ -1,0 +1,12 @@
+GET http://localhost:3001/gym
+
+###
+POST http://localhost:3001/gym/new
+Content-Type: application/json
+
+{
+    "text": ""
+}
+
+###
+DELETE http://localhost:3001/gym/delete/
